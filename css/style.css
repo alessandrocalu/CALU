@@ -1,0 +1,249 @@
+body, input, select, textarea {	
+	color: #013401; 
+	font: 12px Arial, Verdana, Helvetica, sans-serif; 
+}
+
+body { 
+	background-color:#FFFFFF; 
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+
+h1 { 
+	color: #666600;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;	
+	padding: 10px 0px 10px 0px; 
+}
+
+
+.editBox { padding: 2px; border: 1px solid #A5ACB2 }
+
+.changedBox { padding: 2px; border: 1px solid red }
+
+.listBox { padding: 1px; border: 1px solid #A5ACB2 }
+
+
+.button {
+	color: #013401; /*#000000;*/
+	background-color: #CCCCCC; /*#66CC33;*/
+	border-style: solid;
+	border-color: #666600; /*#000;*/
+	border-width: 1px;
+	margin-right: 2px;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #C3D9FF;
+}
+.button:active {
+	background-color: #CCCCCC;
+}
+
+.radioButton {
+	vertical-align: middle;
+}
+
+th.result {
+	background-color: #C3D9FF;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+td.result {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	border-bottom-color: #C3D9FF;
+}
+
+th.result_cliente {
+	background-color: #CCCCCC; /*#C3D9FF;*/
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+td.result_cliente {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	border-bottom-color: #CCCCCC;
+}
+
+th.result_passivo {
+	background-color:#D1CAAD;  /*#C3D9FF;*/
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+td.result_passivo {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	border-bottom-color: #D1CAAD;
+}
+
+th.result_ativo {
+	background-color: #E9AC2E;   /*#C3D9FF;*/
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+td.result_ativo {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	border-bottom-color: #E9AC2E;
+}
+
+th.result_agenda {
+	background-color: #DFEFD7;   /*#C3D9FF;*/
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+td.result_agenda {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	border-bottom-color: #DFEFD7;
+}
+
+th.result_proposta {
+	background-color: #99BB33;   /*#C3D9FF;*/
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+}
+
+td.result_proposta {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: thin;
+	border-bottom-color: #DFEFD7;
+}
+
+
+.contentTable {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+	font: 12px Arial, Verdana, Helvetica, sans-serif; 
+}
+
+.gridTable {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+}
+
+.tableComponent {
+	padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+.tableEdit {
+	padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.tab {
+	font-family: Arial, Verdana,  Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.tabLink { 
+	color: #013401;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+}
+
+.topButtonBar {
+	background-color: #BDDEB1;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+	height: 22px;	
+	width: 100%;
+}
+
+.topLinkButton {
+	color: #013401; /*#003300;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+.topLinkButton:hover {
+	font-size: 14px;
+}
+
+.topLinkButtonActive {
+	background-color: #66CC33;
+	border-color: #000000;
+	border-width: 1px;
+	color: #013401;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+}
+
+.topLinkButtonActive:hover {
+	background-color: #FFFCDF;
+}
+
+.buttonBar {	
+	padding: 3px 0px 3px 0px;
+	height: 12px;	
+}
+
+.frameForPicture {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+}
+
+.hint { 
+	font-size: 10px;
+	font-style:italic; 
+}
+
+.counter { 
+	font-weight:bold; 
+	height: 25px;
+}
+
+.resultText {
+	padding-bottom: 10px;
+}
+
+.horizontaLine {
+	height: 10px;
+}
+
+.mainlevel-nav
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold; 
+	background: transparent;
+	color: #013401; 
+}
+
+.mainlevel-nav:hover
+{
+	color: #013401; 
+	font-size: 16px;
+}
